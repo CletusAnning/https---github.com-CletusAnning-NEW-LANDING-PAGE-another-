@@ -1,0 +1,846 @@
+body {
+  background-color: #f2f2f2;
+  font-family: "Red Hat Display";
+}
+.logo {
+  position: relative;
+  left: 900px;
+  margin: 40px;
+  width: 118px;
+  height: 28px;
+}
+
+.tablet-image-hero {
+  display: none;
+}
+
+.header-text {
+  margin-left: 100px;
+  margin-top: -200px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 64px;
+  line-height: 94px;
+  text-align: center;
+  color: #28283d;
+}
+
+.meet {
+  margin-left: 700px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  width: 540px;
+  height: 52px;
+  color: #87879d;
+  text-align: center;
+}
+
+.header-img-right {
+  position: relative;
+  top: -370px;
+  left: 1600px;
+  width: 110px;
+  height: 110px;
+}
+
+.header-img-left {
+  width: 110px;
+  height: 110px;
+}
+
+.downloadbttn {
+  position: relative;
+  left: 800px;
+  top: 50px;
+  width: 193px;
+  height: 58px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+  background: #4d96a9;
+  border-radius: 29px;
+  border: #f2f2f2;
+}
+
+.whatbttn {
+  position: relative;
+  left: 850px;
+  top: 47px;
+  width: 139px;
+  height: 58px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+  background: #855fb1;
+  border-radius: 29px;
+  border: #f2f2f2;
+}
+
+.zero-one {
+  position: relative;
+  left: 950px;
+  top: 80px;
+  width: 56px;
+  height: 56px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  justify-self: center;
+  background: #fafafa;
+  border: 1px solid rgba(135, 135, 157, 0.25);
+  border-radius: 29px;
+  color: #87879d;
+}
+
+.images {
+  position: relative;
+  left: 490px;
+  top: 150px;
+}
+
+.woman-videocall {
+  width: 255px;
+  height: 242px;
+}
+
+.women-chatting {
+  width: 255px;
+  height: 242px;
+  margin-left: 12px;
+}
+
+.men-meeting {
+  width: 255px;
+  height: 242px;
+  margin-left: 12px;
+}
+
+.man-texting {
+  width: 255px;
+  height: 242px;
+  margin-left: 12px;
+}
+
+.text {
+  position: relative;
+  left: 890px;
+  top: 200px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: #4d96a9;
+}
+
+h2 {
+  position: relative;
+  top: 200px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 44px;
+  text-align: center;
+  color: #28283d;
+}
+
+h4 {
+  position: relative;
+  top: 200px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+  color: #87879d;
+}
+
+.zero-two {
+  position: relative;
+  left: 990px;
+  top: 310px;
+  width: 56px;
+  height: 56px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  background: #fafafa;
+  border: 1px solid rgba(135, 135, 157, 0.25);
+  border-radius: 29px;
+  color: #87879d;
+}
+
+.footer img {
+  height: 308px;
+  width: 2000px;
+  opacity: 20%;
+}
+
+.mobile-image-footer {
+  display: none;
+}
+
+.footer {
+  height: 308px;
+  width: 2000px;
+  background-color: #4d96a9;
+  margin-left: 30px;
+  margin-top: 18em;
+}
+
+.footer-left {
+  position: relative;
+  left: 120px;
+  top: -250px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 44px;
+  color: #fafafa;
+}
+
+.footer-middle {
+  position: relative;
+  left: 850px;
+  top: -360px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  color: #fafafa;
+}
+
+.footer-bttn {
+  position: relative;
+  left: 1550px;
+  top: -460px;
+  width: 193px;
+  height: 58px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+  background: #855fb1;
+  border-radius: 29px;
+  border: #fafafa;
+}
+
+/* DESKTOP ACTIVE */
+@media only screen and (min-width: 768px) and (max-width: 1440px) {
+  .logo {
+    position: relative;
+    left: 800px;
+    margin: 40px;
+    width: 118px;
+    height: 28px;
+  }
+
+  .tablet-image-hero {
+    display: none;
+  }
+
+  .header-text {
+    margin-left: 500px;
+    margin-top: -200px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 94px;
+    text-align: center;
+    color: #28283d;
+  }
+
+  .meet {
+    margin-left: 700px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    width: 540px;
+    height: 52px;
+    color: #87879d;
+    text-align: center;
+  }
+
+  .header-img-right {
+    position: relative;
+    top: -370px;
+    left: 1350px;
+    width: 110px;
+    height: 110px;
+  }
+
+  .header-img-left {
+    position: relative;
+    left: 150px;
+    width: 110px;
+    height: 110px;
+  }
+
+  .downloadbttn {
+    position: relative;
+    left: 800px;
+    top: 50px;
+    width: 193px;
+    height: 58px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 26px;
+    color: #ffffff;
+    background: #4d96a9;
+    border-radius: 29px;
+    border: #f2f2f2;
+  }
+
+  .whatbttn {
+    position: relative;
+    left: 850px;
+    top: 47px;
+    width: 139px;
+    height: 58px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 26px;
+    color: #ffffff;
+    background: #855fb1;
+    border-radius: 29px;
+    border: #f2f2f2;
+  }
+
+  .zero-one {
+    position: relative;
+    left: 950px;
+    top: 80px;
+    width: 56px;
+    height: 56px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    justify-self: center;
+    background: #fafafa;
+    border: 1px solid rgba(135, 135, 157, 0.25);
+    border-radius: 29px;
+    color: #87879d;
+  }
+
+  .images {
+    position: relative;
+    left: 450px;
+    top: 150px;
+  }
+
+  .woman-videocall {
+    width: 255px;
+    height: 242px;
+  }
+
+  .women-chatting {
+    width: 255px;
+    height: 242px;
+    margin-left: 12px;
+  }
+
+  .men-meeting {
+    width: 255px;
+    height: 242px;
+    margin-left: 12px;
+  }
+
+  .man-texting {
+    width: 255px;
+    height: 242px;
+    margin-left: 12px;
+  }
+
+  .text {
+    position: relative;
+    left: 890px;
+    top: 200px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #4d96a9;
+  }
+
+  h2 {
+    position: relative;
+    top: 200px;
+    left: 300px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 44px;
+    text-align: center;
+    color: #28283d;
+  }
+
+  h4 {
+    position: relative;
+    left: 300px;
+    top: 200px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    color: #87879d;
+  }
+
+  .zero-two {
+    position: relative;
+    left: 990px;
+    top: 310px;
+    width: 56px;
+    height: 56px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    background: #fafafa;
+    border: 1px solid rgba(135, 135, 157, 0.25);
+    border-radius: 29px;
+    color: #87879d;
+  }
+
+  .footer img {
+    height: 308px;
+    width: 2000px;
+    opacity: 20%;
+  }
+
+  .mobile-image-footer {
+    display: none;
+  }
+
+  .footer {
+    height: 308px;
+    width: 2000px;
+    background-color: #4d96a9;
+    margin-left: 30px;
+    margin-top: 18em;
+  }
+
+  .footer-left {
+    position: relative;
+    left: 120px;
+    top: -250px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 44px;
+    color: #fafafa;
+  }
+
+  .footer-middle {
+    position: relative;
+    left: 850px;
+    top: -360px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color: #fafafa;
+  }
+
+  .footer-bttn {
+    position: relative;
+    left: 1550px;
+    top: -460px;
+    width: 193px;
+    height: 58px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 26px;
+    color: #ffffff;
+    background: #855fb1;
+    border-radius: 29px;
+    border: #fafafa;
+  }
+}
+
+/* TABLET */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .logo {
+    position: relative;
+    left: 350px;
+    width: 119px;
+    height: 28px;
+  }
+
+  .tablet-image-hero {
+    display: block;
+    position: relative;
+    left: 10px;
+    width: 820px;
+    height: 303px;
+  }
+
+  .header-img-left {
+    display: none;
+  }
+
+  .header-img-right {
+    display: none;
+  }
+
+  .header-text {
+    position: relative;
+    left: -200px;
+    top: 180px;
+    width: 339px;
+    height: 96px;
+    font-style: normal;
+    font-weight: 900;
+    font-family: "Red Hat Display";
+    font-size: 28px;
+    line-height: 48px;
+    text-align: center;
+    color: #28283d;
+  }
+
+  .meet {
+    position: relative;
+    left: -500px;
+    top: 200px;
+    font-family: "Red Hat Display";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #87879d;
+  }
+
+  .downloadbttn {
+    position: relative;
+    left: 300px;
+    top: 300px;
+    width: 193px;
+    height: 58px;
+  }
+
+  .whatbttn {
+    position: relative;
+    left: 300px;
+    top: 300px;
+    width: 139px;
+    height: 58px;
+  }
+
+  .zero-one {
+    position: relative;
+    left: 430px;
+    top: 400px;
+  }
+
+  .images {
+    position: relative;
+    left: 100px;
+    top: 430px;
+  }
+
+  .woman-videocall {
+    width: 164px;
+    height: 156px;
+  }
+
+  .women-chatting {
+    width: 164px;
+    height: 156px;
+  }
+
+  .men-meeting {
+    margin-left: 190px;
+    width: 164px;
+    height: 156px;
+  }
+
+  .man-texting {
+    position: relative;
+    left: 350px;
+    top: -160px;
+    width: 164px;
+    height: 156px;
+  }
+
+  .text {
+    position: relative;
+    left: 300px;
+    top: 300px;
+  }
+
+  h2 {
+    position: relative;
+    left: 100px;
+    top: 290px;
+  }
+
+  h4 {
+    position: relative;
+    left: 100px;
+    top: 290px;
+    color: #87879d;
+  }
+
+  .zero-two {
+    position: relative;
+    left: 430px;
+    top: 500px;
+  }
+  .footer {
+    margin-left: 5em;
+    margin-top: 30em;
+    width: 768px;
+    height: 428px;
+  }
+
+  .footer img {
+    width: 768px;
+    height: 428px;
+  }
+  .mobile-image-footer {
+    display: none;
+  }
+
+  .footer-left {
+    position: relative;
+    left: 300px;
+    top: -400px;
+  }
+
+  .footer-middle {
+    position: relative;
+    left: 300px;
+    top: -400px;
+    width: 573px;
+    height: 52px;
+  }
+
+  .footer-bttn {
+    position: relative;
+    left: 300px;
+    top: -350px;
+  }
+}
+
+/* MOBILE */
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .logo {
+    position: relative;
+    left: 500px;
+    width: 119px;
+    height: 28px;
+  }
+
+  .header-img-left {
+    display: none;
+  }
+
+  .header-img-right {
+    display: none;
+  }
+
+  .tablet-image-hero {
+    display: block;
+    position: relative;
+    left: 210px;
+    width: 414px;
+    height: 153px;
+  }
+
+  .header-text {
+    position: relative;
+    width: 327px;
+    height: 88px;
+    left: 350px;
+    top: 350px;
+    font-size: 28px;
+    line-height: 44px;
+    text-align: center;
+  }
+
+  .meet {
+    position: relative;
+    width: 327px;
+    height: 78px;
+    top: 400px;
+    left: -250px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #87879d;
+  }
+
+  .downloadbttn {
+    position: relative;
+    top: 450px;
+    left: 500px;
+    width: 193px;
+    height: 58px;
+  }
+
+  .whatbttn {
+    position: relative;
+    top: 540px;
+    left: 320px;
+    width: 139px;
+    height: 58px;
+  }
+  .images {
+    position: relative;
+    top: 700px;
+    left: 450px;
+    width: 327px;
+    height: 310px;
+  }
+
+  .woman-videocall {
+    width: 151px;
+    height: 143px;
+  }
+
+  .women-chatting {
+    width: 151px;
+    height: 143px;
+  }
+
+  .men-meeting {
+    position: relative;
+    left: -17px;
+    top: 10px;
+    width: 151px;
+    height: 143px;
+  }
+
+  .man-texting {
+    margin-top: -140px;
+    margin-left: 169px;
+    width: 151px;
+    height: 143px;
+  }
+
+  .zero-one {
+    position: relative;
+    left: 560px;
+    top: 650px;
+  }
+
+  .text {
+    position: relative;
+    left: 450px;
+    top: 750px;
+    font-family: "Red Hat Display";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  h2 {
+    position: relative;
+    left: 390px;
+    top: 750px;
+    font-size: 32px;
+    line-height: 36px;
+    font-family: "Red Hat Display";
+    text-align: center;
+  }
+
+  h4 {
+    position: relative;
+    left: 420px;
+    top: 750px;
+    width: 327px;
+    height: 130px;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    font-weight: 500px;
+    font-family: "Red Hat Display";
+    text-align: center;
+    color: #87879d;
+  }
+
+  .zero-two {
+    position: relative;
+    left: 560px;
+    top: 900px;
+  }
+
+  .footer-image {
+    display: none;
+  }
+
+  .footer img {
+    width: 375px;
+    height: 428px;
+  }
+
+  .footer {
+    margin-left: 25em;
+    margin-top: 55em;
+    width: 375px;
+    height: 428px;
+  }
+
+  .mobile-image-footer {
+    display: block;
+    width: 375px;
+    height: 428px;
+  }
+
+  .footer-left {
+    position: relative;
+    left: 20px;
+    top: -400px;
+    font-family: "Red Hat Display";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    text-align: center;
+  }
+
+  .footer-middle {
+    position: relative;
+    left: -80px;
+    top: -400px;
+    width: 573px;
+    height: 52px;
+    font-family: "Red Hat Display";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+  }
+
+  .footer-bttn {
+    position: relative;
+    left: 90px;
+    top: -350px;
+  }
+}
